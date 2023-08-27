@@ -1,0 +1,67 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(8, 168, 236);
+    color: white;
+    padding: 10px 20px 0px;
+}
+.menu li a{
+    color: white;
+}
+.header {
+    min-height: 150px;
+    margin-left: 10px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(44, 45, 46);
+    color: white;
+    min-height: 150px;
+    padding-left: 15px;
+    margin-left: 10px;
+}
+
+table{
+    box-shadow: 12px 13px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 12px 13px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 12px 13px 5px 0px rgba(0,0,0,0.75);
+    border: solid 1px gray;
+}
+
+table thead th{
+    background-color: black;
+    color: white;
+}
+
+table tbody tr:nth-child(even) td{
+    background-color: #e9e9e9;
+    cursor: pointer;
+}
+
+table tbody tr:hover td{
+    background-color: #f1f1f1;
+}
+
